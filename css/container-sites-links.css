@@ -1,0 +1,6 @@
+@media (min-width: 1024px){
+    .container-sites-links{
+        display: flex;
+        align-items: center;
+    }
+}

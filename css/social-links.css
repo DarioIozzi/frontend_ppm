@@ -1,0 +1,11 @@
+.social-links:not(:first-child){
+ margin-left: 13px;
+}
+
+.social-links{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}

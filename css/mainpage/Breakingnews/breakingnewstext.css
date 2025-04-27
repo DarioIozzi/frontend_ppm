@@ -1,0 +1,57 @@
+.breaking-argument{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #BE0B26;
+    position: relative;
+    display: inline-block;
+    padding: 8px 30px 8px 30px;
+    border-radius: 0 2px 2px 0;
+}
+
+.breaking-argument::before{
+    display: block;
+    content: '';
+    background-color: inherit;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -20px;
+    width: 20px;
+}
+
+@media(min-width: 1024px){
+    .breaking-argument{
+        --outside-space: calc((100vw - 1024px) / 2);
+    }
+
+    .breaking-argument::before{
+        left: calc(-1 * var(--outside-space));
+        width: var(--outside-space);
+    }
+}
+
+.argument-container{
+    display: flex;
+    align-items: center;
+}
+
+.Argument{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+
+}
+.title{
+    font-size: 28px;
+}
+
+.title, .text{
+    display: block;
+    margin-top: 16px;
+    padding-left: 30px;
+}
+
+.title a:hover{
+    text-decoration: underline;
+}
+

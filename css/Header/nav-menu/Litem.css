@@ -1,0 +1,15 @@
+@media(min-width: 1024px){
+    .Litem{
+        padding: 0;
+        border-bottom: none;
+    }
+    .Litem:not(:first-child){
+        margin-left: 20px;
+    }
+}
+
+.Litem{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 17px;
+}

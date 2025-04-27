@@ -1,0 +1,15 @@
+@media(min-width:1024px){
+    .inline-links{
+        margin: 0;
+        padding: 0;
+        justify-content: flex-start;
+    }
+}
+
+.inline-links{
+    display: flex;
+    align-items: flex-end;
+    width: auto;
+    list-style-type: none;
+    flex: 1;
+}

@@ -1,0 +1,15 @@
+@media(min-width: 1024px) {
+    .logo-container {
+        padding: 0;
+        border-bottom: none;
+    }
+}
+
+.logo-container{
+    display: flex;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}

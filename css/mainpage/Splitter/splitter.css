@@ -1,0 +1,35 @@
+@media (min-width: 1024px) {
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        padding-bottom: 10px;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .left-split {
+        flex: 1;
+        margin-right: 30px;
+    }
+}
+
+.stretch-content{
+    background-color: transparent;
+    padding: 20px;
+}
+
+@media (min-width: 1024px) {
+    .stretch-content{
+        padding: 0 0;
+        margin: 0 auto;
+    }
+}
+
+.row > div:not(.ads) {
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+}

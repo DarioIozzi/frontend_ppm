@@ -1,0 +1,8 @@
+@media(min-width: 1024px){
+    .links-separator{
+        height: 2px;
+        background: #ffffff;
+        opacity: 0.6;
+        margin: 10px 0;
+    }
+}

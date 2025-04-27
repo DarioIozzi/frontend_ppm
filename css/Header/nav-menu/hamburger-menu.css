@@ -1,0 +1,27 @@
+.top-hamburger-menu{
+    width: 22px;
+    height: 22px;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.top-hamburger-menu svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.top-hamburger-menu .accent *{
+    stroke: #ffffff;
+}
+
+@media(min-width: 1024px){
+    #hamburger-menu{
+        display: block;
+        position: absolute;
+        right: 0;
+        z-index: 20;
+    }
+}

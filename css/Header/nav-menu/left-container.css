@@ -1,0 +1,9 @@
+@media(min-width: 1024px){
+    flex-direction: row;
+}
+
+.left-container{
+    display: flex;
+    position: relative;
+    flex: 1;
+}

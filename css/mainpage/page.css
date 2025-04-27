@@ -1,0 +1,19 @@
+.section-wrapper{
+    background-color: transparent;
+    padding: 20px;
+}
+
+@media(min-width: 1024px){
+    .footer, .page{
+        background-color: #ffffff;
+    }
+
+    .page{
+        margin: 0 auto;
+    }
+
+    .section-wrapper{
+        padding: 20px 0;
+        margin: 0 auto;
+    }
+}

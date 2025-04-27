@@ -1,0 +1,8 @@
+.header-separator{
+    padding: 20px 0;
+    box-sizing: content-box;
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    min-height: 90px;
+}

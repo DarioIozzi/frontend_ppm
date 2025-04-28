@@ -12,8 +12,19 @@
         margin: 0 auto;
     }
 
+    .page-content {
+        max-width: 1024px;
+    }
+
     .section-wrapper{
         padding: 20px 0;
         margin: 0 auto;
     }
+}
+
+.event-title{
+    padding-bottom: 20px;
+    padding-top: 15px;
+    border-bottom: 1px solid #b0161e;
+    margin-bottom: 30px;
 }

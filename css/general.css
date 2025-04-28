@@ -26,3 +26,68 @@ span {
     margin:0;
     padding:0;
 }
+
+.desktop-row{
+    display: none
+}
+
+.mobile-row{
+    display: block;
+}
+
+.event-mobile-container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    --medium: 768px;
+    --frame-gap: 10px;
+    --total-gap: calc(2 * var(--frame-gap) - var(--frame-gap));
+    --frame-width: calc( (var(--viewport-width) - var(--total-gap)) / 2 );
+    --viewport-width: 100%;
+}
+
+@media(min-width:768px){
+    .event-mobile-container {
+        --total-gap: calc(2 * var(--frame-gap) - var(--frame-gap));
+        --frame-width: calc((var(--viewport-width) - var(--total-gap)) / 2);
+    }
+}
+
+@media(min-width:1024px){
+    .desktop-row{
+        display: block
+    }
+
+    .mobile-row{
+        display: none;
+    }
+}
+
+.slider{
+    width: 100%;
+}
+
+.event-mobile-container-viewport{
+    overflow: auto;
+    position: relative;
+    height: 100%;
+    width: var(--viewport-width);
+    scroll-snap-type: both mandatory;
+    scrollbar-width: none;
+}
+
+.frame{
+    align-items: stretch;
+    display: flex;
+    margin: 1px;
+    min-width: var(--frame-width);
+    width: var(--frame-width);
+    scroll-snap-align: start;
+}
+
+.event-mobile-container-item{
+    margin: 0;
+    white-space: normal;
+    flex: 1;
+}

@@ -24,7 +24,7 @@
     display: none;
 }
 
-.wider-format >span{
+.wider-format > span, .smaller-format >span{
     box-sizing: border-box;
     display: block;
     overflow: hidden;
@@ -37,7 +37,7 @@
     padding: 0;
 }
 
-.wider-format>span>span{
+.wider-format>span>span, .smaller-format>span>span{
     box-sizing: border-box;
     display: block;
     width: initial;

@@ -1,3 +1,19 @@
+.ads{
+    background-color: #f4f9ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.ads>*{
+    margin: 10px 0;
+    max-width: 100%;
+}
+
 @media(min-width: 768px){
     .column-right-ads{
         display: flex;
@@ -5,7 +21,27 @@
         justify-content: space-between;
     }
 
-    .column-right-ads > div{
+    .column-right-ads > *{
+        margin: 0;
+        width: calc(50% - 10px);
+    }
+}
+
+@media(min-width: 768px) {
+    .column-left-ads{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .column-left-ads > *{
+        margin: 0;
+        width: calc(50% - 10px);
+    }
+}
+
+@media(min-width: 768px){
+    .column > *{
         margin: 0;
         width: calc(50% - 10px);
     }

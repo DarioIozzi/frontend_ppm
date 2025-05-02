@@ -1,4 +1,4 @@
-.breaking-argument{
+.argument-ribbon{
     margin-top: 0;
     margin-bottom: 0;
     background-color: #BE0B26;
@@ -8,7 +8,7 @@
     border-radius: 0 2px 2px 0;
 }
 
-.breaking-argument::before{
+.argument-ribbon::before{
     display: block;
     content: '';
     background-color: inherit;
@@ -19,12 +19,23 @@
     width: 20px;
 }
 
+.argument-ribbon.decoration::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -39px;
+    width: 40px;
+    background-color: inherit;
+    clip-path: polygon(100% 0, 30% 50%, 100% 100%, 0 100%, 0 0);
+}
+
 @media(min-width: 1024px){
-    .breaking-argument{
+    .argument-ribbon{
         --outside-space: calc((100vw - 1024px) / 2);
     }
 
-    .breaking-argument::before{
+    .argument-ribbon::before{
         left: calc(-1 * var(--outside-space));
         width: var(--outside-space);
     }
@@ -35,7 +46,7 @@
     align-items: center;
 }
 
-.Argument{
+.argument{
     font-weight: bold;
     font-size: 18px;
     color: #ffffff;

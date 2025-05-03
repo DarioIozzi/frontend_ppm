@@ -4,3 +4,12 @@
         float: left;
     }
 }
+
+.margin-col{
+    margin: 0 1%;
+}
+
+.preview-card {
+    width: 80%;
+    padding: 0 8px;
+}

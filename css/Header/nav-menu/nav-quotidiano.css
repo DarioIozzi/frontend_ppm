@@ -24,3 +24,17 @@
 .nav-quotidiano a{
     text-decoration: none;
 }
+
+@media (max-width: 479px) {
+    .nav-quotidiano{
+        padding: 16px;
+    }
+}
+
+.nav-quotidiano svg{
+    height: 20px;
+}
+
+.nav-quotidiano svg path{
+    stroke: white;
+}

@@ -10,10 +10,10 @@
     <!-- TUTTI I PLACEHOLDER A CUI NON SONO CORRELATE SCRITTE (TITOLI, TESTI ECC) RAPPRESENTANO SPAZI PUBBLICITARI
          Tutti i link indirizzano alla pagina stessa (href="")-->
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-
-                    <!-- header -->
+    <!-- header -->
 
     <link rel="stylesheet" type="text/css" href="css/Header/menu.css"/>
 
@@ -150,10 +150,53 @@
             <div class="nav-menu">
                 <div class="inner-menu inner-nav">
                     <div class="left-container">
+                        <div class="menu-separator"></div>
                         <div class="logo-container">
+                            <button id="hamburger-menu-mobile" class="btn-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
+                                <g class="accent" style="fill: none; stroke: #ffffff; stroke-linecap: round; stroke-width: 2">
+                                    <line x1="1" y1="5" x2="19" y2="5"></line>
+                                    <line x1="1" y1="10" x2="19" y2="10"></line>
+                                    <line x1="1" y1="15" x2="19" y2="15"></line>
+                                </g>
+                            </svg>
+                        </button>
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="sidebarMenuLabel">Menu</h5>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Chi siamo</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Servizi</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Contatti</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                             <a href="" title="L'Uninone Sarda.it" target="_top">
                                 <img alt="L'Unione Sarda.it" src="https://placehold.co/230x23">
                             </a>
+                            <div id="search-icon-mobile" class="search-icon">
+                                <button type="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="19" height="19" viewBox="0,0,256,256">
+                                        <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                            <g transform="scale(5.12,5.12)">
+                                                <path d="M21,3c-9.37891,0 -17,7.62109 -17,17c0,9.37891 7.62109,17 17,17c3.71094,0 7.14063,-1.19531 9.9375,-3.21875l13.15625,13.125l2.8125,-2.8125l-13,-13.03125c2.55469,-2.97656 4.09375,-6.83984 4.09375,-11.0625c0,-9.37891 -7.62109,-17 -17,-17zM21,5c8.29688,0 15,6.70313 15,15c0,8.29688 -6.70312,15 -15,15c-8.29687,0 -15,-6.70312 -15,-15c0,-8.29687 6.70313,-15 15,-15z"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </button>
+                            </div>
                         </div>
                         <div class="middle-section">
                             <div class="links">
@@ -242,7 +285,9 @@
                     </div>
                     <div class="nav-quotidiano">
                         <a title="SFOGLIA IL QUOTIDIANO" target="_top">SFOGLIA IL QUOTIDIANO
-                            <!-- FIXME -->
+                            <svg viewBox="0 0 10 29" xlmns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round">
+                                <path d="M1.554 27.234l6.3-12.9-6.3-12.9" fill="none" stroke="#000" stroke-width="3"></path>
+                            </svg>
                         </a>
                         <div><!-- FIXME --></div>
                         <div><!-- FIXME --></div>
@@ -252,9 +297,8 @@
         </div>
     </header>
     <!-- separator -->
-    <div>
-        <div class="header-separator"></div>
-    </div>
+
+    <div class="header-separator"></div>
 
     <!-- mainpage -->
 
@@ -267,15 +311,15 @@
                             <div class="breaking-news-text">
                                 <div class="argument-ribbon">
                                     <div class="argument-container">
-                                        <h2 class="argument">BREAKING NEWS</h2>
+                                        <h2 class="argument">NEWS</h2>
                                     </div>
                                 </div>
                                 <div id="title-container">
                                     <h1 class="title">
-                                        <a href="" title="TITLE BREAKING NEWS">TITLE BREAKING NEWS</a>
+                                        <a href="" title="TITLE BREAKING NEWS">TITLE NEWS</a>
                                     </h1>
                                     <div class="text">
-                                        <p>TEXT BREAKING NEWS</p>
+                                        <p>TEXT NEWS</p>
                                     </div>
                                 </div>
                             </div>
@@ -286,6 +330,12 @@
                                             <span>
                                                 <span style="padding: 75% 0 0; position: relative"></span>
                                                 <img class="img" alt="" title="TITLE BREAKING NEWS" src="https://placehold.co/500x375" style="object-fit: fill">
+                                            </span>
+                                        </div>
+                                        <div class="mobile-format">
+                                            <span>
+                                                <span style="padding: 75% 0 0"></span>
+                                                <img class="img" src="https://placehold.co/372x279" alt="" style="object-fit: fill">
                                             </span>
                                         </div>
                                     </a>
@@ -308,6 +358,12 @@
                                                         <span>
                                                             <span style="padding: 66.4596% 0 0"></span>
                                                             <img class="img" alt="NEWS" src="https://placehold.co/322x214" style="object-fit: cover">
+                                                        </span>
+                                                    </div>
+                                                    <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
                                                         </span>
                                                     </div>
                                                 </a>
@@ -373,6 +429,12 @@
                                                             <img class="img" alt="NEWS" src="https://placehold.co/322x214" style="object-fit: cover">
                                                         </span>
                                                     </div>
+                                                    <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
+                                                        </span>
+                                                    </div>
                                                 </a>
                                             </div>
                                         </div>
@@ -436,6 +498,12 @@
                                                             <img class="img" alt="NEWS" src="https://placehold.co/322x214" style="object-fit: cover">
                                                         </span>
                                                     </div>
+                                                    <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
+                                                        </span>
+                                                    </div>
                                                 </a>
                                             </div>
                                         </div>
@@ -490,14 +558,25 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="ads">
+                                    <div>
+                                        <img src="https://placehold.co/300x250" alt="" style="object-fit: cover">
+                                    </div>
+                                </div>
                                 <div class="teaser">
                                     <div class="teaserright-img">
                                         <div style="padding-bottom: 0; position: relative; flex: 1">
-                                            <div class="teaser-img">
+                                            <div class="teaser-img" style="padding-top: 0">
                                                 <a target="_top" title="NEWS" href="">
                                                     <div class="wider-format">
                                                         <span style="position: absolute; inset: 0">
                                                             <img alt="NEWS" title="NEWS" class="img" src="https://placehold.co/327x311" style="object-fit: cover">
+                                                        </span>
+                                                    </div>
+                                                    <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
                                                         </span>
                                                     </div>
                                                 </a>
@@ -536,6 +615,12 @@
                                                                 <span style="padding: 66.5339% 0 0;"></span>
                                                                 <img class="img" alt="NEWS-TITLE" src='https://placehold.co/327x311' style="object-fit: cover">
                                                             </span>
+                                                        </div>
+                                                        <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
+                                                        </span>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -608,6 +693,12 @@
                                                             <img class="img" alt="NEWS" src="https://placehold.co/322x214" style="object-fit: cover">
                                                         </span>
                                                     </div>
+                                                    <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
+                                                        </span>
+                                                    </div>
                                                 </a>
                                             </div>
                                         </div>
@@ -673,6 +764,12 @@
                                                             <img class="img" alt="NEWS" src="https://placehold.co/322x214" style="object-fit: cover">
                                                         </span>
                                                     </div>
+                                                    <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
+                                                        </span>
+                                                    </div>
                                                 </a>
                                             </div>
                                         </div>
@@ -736,6 +833,12 @@
                                                         <span>
                                                             <span style="padding: 66.4596% 0 0"></span>
                                                             <img class="img" alt="NEWS" src="https://placehold.co/322x214" style="object-fit: cover">
+                                                        </span>
+                                                    </div>
+                                                    <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
                                                         </span>
                                                     </div>
                                                 </a>
@@ -798,7 +901,8 @@
                         <div class="stretch-content">
                             <aside class="ads" style="margin: 10px 0 20px">
                                 <a href="" target="_blank">
-                                    <img src="https://placehold.co/550x80" alt="ad">
+                                    <img class="bigger" src="https://placehold.co/550x80" alt="ad">
+                                    <img class="smaller" src="https://placehold.co/372x80">
                                 </a>
                             </aside>
                             <div class="row-not-bootstrap">
@@ -815,6 +919,12 @@
                                                             <span style="position: relative">
                                                                 <span style="padding: 66.5339% 0 0;"></span>
                                                                 <img class="img" alt="NEWS-TITLE" src='https://placehold.co/327x311' style="object-fit: cover">
+                                                            </span>
+                                                        </div>
+                                                        <div class="mobile-format">
+                                                            <span>
+                                                                <span style="padding: 66.4596% 0 0 0"></span>
+                                                                <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
                                                             </span>
                                                         </div>
                                                     </a>
@@ -889,6 +999,12 @@
                                                             <span style="position: relative">
                                                                 <span style="padding: 66.5339% 0 0;"></span>
                                                                 <img class="img" alt="NEWS-TITLE" src='https://placehold.co/327x311' style="object-fit: cover">
+                                                            </span>
+                                                        </div>
+                                                        <div class="mobile-format">
+                                                            <span>
+                                                                <span style="padding: 66.4596% 0 0 0"></span>
+                                                                <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
                                                             </span>
                                                         </div>
                                                     </a>
@@ -963,6 +1079,12 @@
                                                         <span>
                                                             <span style="padding: 66.4596% 0 0"></span>
                                                             <img class="img" alt="NEWS" src="https://placehold.co/322x214" style="object-fit: cover">
+                                                        </span>
+                                                    </div>
+                                                    <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
                                                         </span>
                                                     </div>
                                                 </a>
@@ -1026,6 +1148,12 @@
                                                         <span>
                                                             <span style="padding: 66.4596% 0 0"></span>
                                                             <img class="img" alt="NEWS" src="https://placehold.co/322x214" style="object-fit: cover">
+                                                        </span>
+                                                    </div>
+                                                    <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
                                                         </span>
                                                     </div>
                                                 </a>
@@ -1099,6 +1227,12 @@
                                                                 <img class="img" alt="NEWS-TITLE" src='https://placehold.co/327x311' style="object-fit: cover">
                                                             </span>
                                                         </div>
+                                                        <div class="mobile-format">
+                                                            <span>
+                                                                <span style="padding: 66.4596% 0 0 0"></span>
+                                                                <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
+                                                            </span>
+                                                        </div>
                                                     </a>
                                                 </div>
                                             </div>
@@ -1171,6 +1305,12 @@
                                                                 <img class="img" alt="NEWS-TITLE" src='https://placehold.co/327x311' style="object-fit: cover">
                                                             </span>
                                                         </div>
+                                                        <div class="mobile-format">
+                                                            <span>
+                                                                <span style="padding: 66.4596% 0 0 0"></span>
+                                                                <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
+                                                            </span>
+                                                        </div>
                                                     </a>
                                                 </div>
                                             </div>
@@ -1234,6 +1374,12 @@
                                                                 <img class="img" alt="NEWS-TITLE" src='https://placehold.co/327x311' style="object-fit: cover">
                                                             </span>
                                                         </div>
+                                                        <div class="mobile-format">
+                                                            <span>
+                                                                <span style="padding: 66.4596% 0 0 0"></span>
+                                                                <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
+                                                            </span>
+                                                        </div>
                                                     </a>
                                                 </div>
                                             </div>
@@ -1300,6 +1446,12 @@
                                                             <img class="img" alt="NEWS" src="https://placehold.co/322x214" style="object-fit: cover">
                                                         </span>
                                                     </div>
+                                                    <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
+                                                        </span>
+                                                    </div>
                                                 </a>
                                             </div>
                                         </div>
@@ -1365,6 +1517,12 @@
                                                             <img class="img" alt="NEWS" src="https://placehold.co/322x214" style="object-fit: cover">
                                                         </span>
                                                     </div>
+                                                    <div class="mobile-format">
+                                                        <span>
+                                                            <span style="padding: 66.4596% 0 0 0"></span>
+                                                            <img class="img" src="https://placehold.co/372x247" alt="" style="object-fit: cover">
+                                                        </span>
+                                                    </div>
                                                 </a>
                                             </div>
                                         </div>
@@ -1422,14 +1580,14 @@
                             </div>
                         </div>
                         <div class="stretch-content"></div>
-                        <div class="stretch-content"></div>
                         <div class="stretch-content">
                             <div style="overflow: auto">
                                 <div class="ads">
                                     <div>
-                                        <div style="display: block; min-width: 674px; min-height: 200px; text-align: center; margin-top: 20px; margin-bottom: 20px">
-                                            <img src="https://placehold.co/674x200" alt="ad">
-                                        </div>
+                                        <a href="" target="_blank">
+                                            <img class="bigger" src="https://placehold.co/550x80" alt="ad">
+                                            <img class="smaller" src="https://placehold.co/372x80" alt="ad">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1460,6 +1618,12 @@
                                                             <span style="position: relative">
                                                                 <span style="padding: 66.5339% 0 0;"></span>
                                                                 <img class="img" alt="NEWS-TITLE" src='https://placehold.co/320x213' style="object-fit: cover">
+                                                            </span>
+                                                        </div>
+                                                        <div class="mobile-format">
+                                                            <span>
+                                                                <span style="padding: 75% 0 0"></span>
+                                                                <img class="img" src="https://placehold.co/372x279" alt="" style="object-fit: fill">
                                                             </span>
                                                         </div>
                                                     </a>
@@ -1542,6 +1706,12 @@
                                                             <span style="position: relative">
                                                                 <span style="padding: 66.5339% 0 0;"></span>
                                                                 <img class="img" alt="NEWS-TITLE" src='https://placehold.co/320x213' style="object-fit: cover">
+                                                            </span>
+                                                        </div>
+                                                        <div class="mobile-format">
+                                                            <span>
+                                                                <span style="padding: 75% 0 0"></span>
+                                                                <img class="img" src="https://placehold.co/372x279" alt="" style="object-fit: fill">
                                                             </span>
                                                         </div>
                                                     </a>
@@ -1726,277 +1896,275 @@
                     <div class="macro-section">
                         <span style="color: #b0161e; font-weight: bold; font-style: italic; font-family: serif; font-size: 30px;">Content</span>
                     </div>
-                    <div class="desktop-row">
-                        <div class="row-not-bootstrap">
-                            <div class="column" style="border: 0">
-                                <div class="teaser">
-                                    <div class="teaser-top-img">
-                                        <div class="teaserimg-container">
-                                            <div class="teaserimg">
-                                                <a target="_top" title="NEWS" href="" style="display: inline">
-                                                    <div class="wider-format">
-                                                            <span style="position: relative">
-                                                                <span style="padding: 66.5339% 0 0;"></span>
-                                                                <img class="img" alt="NEWS-TITLE" src='https://placehold.co/230x154' style="object-fit: cover">
-                                                            </span>
-                                                    </div>
-                                                </a>
+
+                    <div class="d-none d-md-flex justify-content-between text-black" style="max-width: 1024px; margin: auto;">
+                        <div class="col-3 margin-col">
+                            <div class="teaser-top-img">
+                                <div class="teaserimg-container">
+                                    <div class="teaserimg">
+                                        <a target="_top" title="NEWS" href="" style="display: inline">
+                                            <div class="wider-format">
+                                                <span style="position: relative">
+                                                    <span style="padding: 66.5339% 0 0;"></span>
+                                                    <img class="img" alt="NEWS-TITLE" src='https://placehold.co/230x154' style="object-fit: cover">
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="teasercontent-container minheight">
+                                    <div class="teaser-content">
+                                        <div>
+                                            <span class="keywords">
+                                                <span class="key-text">
+                                                    <span class="key">KEYWORD</span>
+                                                </span>
+                                            </span>
+                                            <h3 class="teaser-title">
+                                                <a href="" title="NEWS-TITLE">NEWS TITLE</a>
+                                            </h3>
+                                            <div class="teaser-text">
+                                                <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
+                                            </div>
+                                            <div class="author">
+                                                <div class="name">
+                                                    <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="teasercontent-container minheight">
-                                            <div class="teaser-content">
-                                                <div>
-                                                        <span class="keywords">
-                                                            <span class="key-text">
-                                                                <span class="key">KEYWORD</span>
+                                        <div class="teaser-links">
+                                            <div class="teaser-link-container">
+                                                <a class="social-links" role="button" title="twitter" target="_top">
+                                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
+                                                        <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                                            <g transform="scale(5.12,5.12)">
+                                                                <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                                <a class="social-links" role="button" title="facebook" target="_top">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
+                                                        <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+                                                    </svg>
+                                                </a>
+                                                <a class="social-links email" role="button" title="email" target="_top">
+                                                    <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
+                                                </a>
+                                                <button type="button">
+                                                    <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
+                                                        <div class="button-img">
+                                                            <span class="button-icon">
+                                                                <img src="img/icons8-commento-21.png" alt="email">
                                                             </span>
-                                                        </span>
-                                                    <h3 class="teaser-title">
-                                                        <a href="" title="NEWS-TITLE">NEWS TITLE</a>
-                                                    </h3>
-                                                    <div class="teaser-text">
-                                                        <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
-                                                    </div>
-                                                    <div class="author">
-                                                        <div class="name">
-                                                            <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div class="teaser-links">
-                                                    <div class="teaser-link-container">
-                                                        <a class="social-links" role="button" title="twitter" target="_top">
-                                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
-                                                                <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                                                    <g transform="scale(5.12,5.12)">
-                                                                        <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
-                                                                    </g>
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-                                                        <a class="social-links" role="button" title="facebook" target="_top">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
-                                                                <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
-                                                            </svg>
-                                                        </a>
-                                                        <a class="social-links email" role="button" title="email" target="_top">
-                                                            <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
-                                                        </a>
-                                                        <button type="button">
-                                                            <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
-                                                                <div class="button-img">
-                                                                        <span class="button-icon">
-                                                                            <img src="img/icons8-commento-21.png" alt="email">
-                                                                        </span>
-                                                                </div>
-                                                            </a>
-                                                        </button>
-                                                    </div>
-                                                </div>
+                                                    </a>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="teaser">
-                                    <div class="teaser-top-img">
-                                        <div class="teaserimg-container">
-                                            <div class="teaserimg">
-                                                <a target="_top" title="NEWS" href="" style="display: inline">
-                                                    <div class="wider-format">
-                                                            <span style="position: relative">
-                                                                <span style="padding: 66.5339% 0 0;"></span>
-                                                                <img class="img" alt="NEWS-TITLE" src='https://placehold.co/230x154' style="object-fit: cover">
-                                                            </span>
-                                                    </div>
-                                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3 margin-col">
+                            <div class="teaser-top-img">
+                                <div class="teaserimg-container">
+                                    <div class="teaserimg">
+                                        <a target="_top" title="NEWS" href="" style="display: inline">
+                                            <div class="wider-format">
+                                                <span style="position: relative">
+                                                    <span style="padding: 66.5339% 0 0;"></span>
+                                                    <img class="img" alt="NEWS-TITLE" src='https://placehold.co/230x154' style="object-fit: cover">
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="teasercontent-container minheight">
+                                    <div class="teaser-content">
+                                        <div>
+                                            <span class="keywords">
+                                                <span class="key-text">
+                                                    <span class="key">KEYWORD</span>
+                                                </span>
+                                            </span>
+                                            <h3 class="teaser-title">
+                                                <a href="" title="NEWS-TITLE">NEWS TITLE</a>
+                                            </h3>
+                                            <div class="teaser-text">
+                                                <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
+                                            </div>
+                                            <div class="author">
+                                                <div class="name">
+                                                    <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="teasercontent-container minheight">
-                                            <div class="teaser-content">
-                                                <div>
-                                                        <span class="keywords">
-                                                            <span class="key-text">
-                                                                <span class="key">KEYWORD</span>
+                                        <div class="teaser-links">
+                                            <div class="teaser-link-container">
+                                                <a class="social-links" role="button" title="twitter" target="_top">
+                                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
+                                                        <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                                            <g transform="scale(5.12,5.12)">
+                                                                <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                                <a class="social-links" role="button" title="facebook" target="_top">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
+                                                        <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+                                                    </svg>
+                                                </a>
+                                                <a class="social-links email" role="button" title="email" target="_top">
+                                                    <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
+                                                </a>
+                                                <button type="button">
+                                                    <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
+                                                        <div class="button-img">
+                                                            <span class="button-icon">
+                                                                <img src="img/icons8-commento-21.png" alt="email">
                                                             </span>
-                                                        </span>
-                                                    <h3 class="teaser-title">
-                                                        <a href="" title="NEWS-TITLE">NEWS TITLE</a>
-                                                    </h3>
-                                                    <div class="teaser-text">
-                                                        <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
-                                                    </div>
-                                                    <div class="author">
-                                                        <div class="name">
-                                                            <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div class="teaser-links">
-                                                    <div class="teaser-link-container">
-                                                        <a class="social-links" role="button" title="twitter" target="_top">
-                                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
-                                                                <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                                                    <g transform="scale(5.12,5.12)">
-                                                                        <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
-                                                                    </g>
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-                                                        <a class="social-links" role="button" title="facebook" target="_top">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
-                                                                <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
-                                                            </svg>
-                                                        </a>
-                                                        <a class="social-links email" role="button" title="email" target="_top">
-                                                            <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
-                                                        </a>
-                                                        <button type="button">
-                                                            <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
-                                                                <div class="button-img">
-                                                                        <span class="button-icon">
-                                                                            <img src="img/icons8-commento-21.png" alt="email">
-                                                                        </span>
-                                                                </div>
-                                                            </a>
-                                                        </button>
-                                                    </div>
-                                                </div>
+                                                    </a>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="teaser">
-                                    <div class="teaser-top-img">
-                                        <div class="teaserimg-container">
-                                            <div class="teaserimg">
-                                                <a target="_top" title="NEWS" href="" style="display: inline">
-                                                    <div class="wider-format">
-                                                            <span style="position: relative">
-                                                                <span style="padding: 66.5339% 0 0;"></span>
-                                                                <img class="img" alt="NEWS-TITLE" src='https://placehold.co/230x154' style="object-fit: cover">
-                                                            </span>
-                                                    </div>
-                                                </a>
+                            </div>
+
+                        </div>
+                        <div class="col-3 margin-col">
+                            <div class="teaser-top-img">
+                                <div class="teaserimg-container">
+                                    <div class="teaserimg">
+                                        <a target="_top" title="NEWS" href="" style="display: inline">
+                                            <div class="wider-format">
+                                                <span style="position: relative">
+                                                    <span style="padding: 66.5339% 0 0;"></span>
+                                                    <img class="img" alt="NEWS-TITLE" src='https://placehold.co/230x154' style="object-fit: cover">
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="teasercontent-container minheight">
+                                    <div class="teaser-content">
+                                        <div>
+                                            <span class="keywords">
+                                                <span class="key-text">
+                                                    <span class="key">KEYWORD</span>
+                                                </span>
+                                            </span>
+                                            <h3 class="teaser-title">
+                                                <a href="" title="NEWS-TITLE">NEWS TITLE</a>
+                                            </h3>
+                                            <div class="teaser-text">
+                                                <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
+                                            </div>
+                                            <div class="author">
+                                                <div class="name">
+                                                    <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="teasercontent-container minheight">
-                                            <div class="teaser-content">
-                                                <div>
-                                                        <span class="keywords">
-                                                            <span class="key-text">
-                                                                <span class="key">KEYWORD</span>
+                                        <div class="teaser-links">
+                                            <div class="teaser-link-container">
+                                                <a class="social-links" role="button" title="twitter" target="_top">
+                                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
+                                                        <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                                            <g transform="scale(5.12,5.12)">
+                                                                <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                                <a class="social-links" role="button" title="facebook" target="_top">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
+                                                        <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+                                                    </svg>
+                                                </a>
+                                                <a class="social-links email" role="button" title="email" target="_top">
+                                                    <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
+                                                </a>
+                                                <button type="button">
+                                                    <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
+                                                        <div class="button-img">
+                                                            <span class="button-icon">
+                                                                <img src="img/icons8-commento-21.png" alt="email">
                                                             </span>
-                                                        </span>
-                                                    <h3 class="teaser-title">
-                                                        <a href="" title="NEWS-TITLE">NEWS TITLE</a>
-                                                    </h3>
-                                                    <div class="teaser-text">
-                                                        <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
-                                                    </div>
-                                                    <div class="author">
-                                                        <div class="name">
-                                                            <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div class="teaser-links">
-                                                    <div class="teaser-link-container">
-                                                        <a class="social-links" role="button" title="twitter" target="_top">
-                                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
-                                                                <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                                                    <g transform="scale(5.12,5.12)">
-                                                                        <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
-                                                                    </g>
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-                                                        <a class="social-links" role="button" title="facebook" target="_top">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
-                                                                <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
-                                                            </svg>
-                                                        </a>
-                                                        <a class="social-links email" role="button" title="email" target="_top">
-                                                            <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
-                                                        </a>
-                                                        <button type="button">
-                                                            <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
-                                                                <div class="button-img">
-                                                                        <span class="button-icon">
-                                                                            <img src="img/icons8-commento-21.png" alt="email">
-                                                                        </span>
-                                                                </div>
-                                                            </a>
-                                                        </button>
-                                                    </div>
-                                                </div>
+                                                    </a>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="teaser">
-                                    <div class="teaser-top-img">
-                                        <div class="teaserimg-container">
-                                            <div class="teaserimg">
-                                                <a target="_top" title="NEWS" href="" style="display: inline">
-                                                    <div class="wider-format">
-                                                            <span style="position: relative">
-                                                                <span style="padding: 66.5339% 0 0;"></span>
-                                                                <img class="img" alt="NEWS-TITLE" src='https://placehold.co/230x154' style="object-fit: cover">
-                                                            </span>
-                                                    </div>
-                                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3 margin-col">
+                            <div class="teaser-top-img">
+                                <div class="teaserimg-container">
+                                    <div class="teaserimg">
+                                        <a target="_top" title="NEWS" href="" style="display: inline">
+                                            <div class="wider-format">
+                                                <span style="position: relative">
+                                                    <span style="padding: 66.5339% 0 0;"></span>
+                                                    <img class="img" alt="NEWS-TITLE" src='https://placehold.co/230x154' style="object-fit: cover">
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="teasercontent-container minheight">
+                                    <div class="teaser-content">
+                                        <div>
+                                            <span class="keywords">
+                                                <span class="key-text">
+                                                    <span class="key">KEYWORD</span>
+                                                </span>
+                                            </span>
+                                            <h3 class="teaser-title">
+                                                <a href="" title="NEWS-TITLE">NEWS TITLE</a>
+                                            </h3>
+                                            <div class="teaser-text">
+                                                <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
+                                            </div>
+                                            <div class="author">
+                                                <div class="name">
+                                                    <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="teasercontent-container minheight">
-                                            <div class="teaser-content">
-                                                <div>
-                                                        <span class="keywords">
-                                                            <span class="key-text">
-                                                                <span class="key">KEYWORD</span>
+                                        <div class="teaser-links">
+                                            <div class="teaser-link-container">
+                                                <a class="social-links" role="button" title="twitter" target="_top">
+                                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
+                                                        <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                                            <g transform="scale(5.12,5.12)">
+                                                                <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                                <a class="social-links" role="button" title="facebook" target="_top">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
+                                                        <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+                                                    </svg>
+                                                </a>
+                                                <a class="social-links email" role="button" title="email" target="_top">
+                                                    <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
+                                                </a>
+                                                <button type="button">
+                                                    <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
+                                                        <div class="button-img">
+                                                            <span class="button-icon">
+                                                                <img src="img/icons8-commento-21.png" alt="email">
                                                             </span>
-                                                        </span>
-                                                    <h3 class="teaser-title">
-                                                        <a href="" title="NEWS-TITLE">NEWS TITLE</a>
-                                                    </h3>
-                                                    <div class="teaser-text">
-                                                        <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
-                                                    </div>
-                                                    <div class="author">
-                                                        <div class="name">
-                                                            <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div class="teaser-links">
-                                                    <div class="teaser-link-container">
-                                                        <a class="social-links" role="button" title="twitter" target="_top">
-                                                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
-                                                                <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                                                    <g transform="scale(5.12,5.12)">
-                                                                        <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
-                                                                    </g>
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-                                                        <a class="social-links" role="button" title="facebook" target="_top">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
-                                                                <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
-                                                            </svg>
-                                                        </a>
-                                                        <a class="social-links email" role="button" title="email" target="_top">
-                                                            <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
-                                                        </a>
-                                                        <button type="button">
-                                                            <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
-                                                                <div class="button-img">
-                                                                        <span class="button-icon">
-                                                                            <img src="img/icons8-commento-21.png" alt="email">
-                                                                        </span>
-                                                                </div>
-                                                            </a>
-                                                        </button>
-                                                    </div>
-                                                </div>
+                                                    </a>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -2004,257 +2172,117 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mobile-row">
-                        <div class="slider">
-                            <div class="slider-container">
-                                <div><!-- TODO --></div>
-                                <div class="slider-container-viewport">
-                                    <div class="frame">
-                                        <div class="slider-container-item">
-                                            <div class="teaser-top-img">
-                                                <div class="teaserimg-container" style="padding-bottom: 20px">
-                                                    <div class="teaserimg">
-                                                        <a target="_top" title="NEWS" href="" style="display: inline">
-                                                            <div class="wider-format">
-                                                            <span style="position: relative">
-                                                                <span style="padding: 66.5339% 0 0;"></span>
-                                                                <img class="img" alt="NEWS-TITLE" src='https://placehold.co/320x213' style="object-fit: cover">
-                                                            </span>
-                                                            </div>
-                                                            <div class="smaller-format">
-                                                                <span style="position:relative;">
-                                                                    <span style="padding: 66.5339% 0 0;"></span>
-                                                                    <img class="img" alt="TITLE" src='https://placehold.co/245x163' style="object-fit: cover">
-                                                                </span>
-                                                            </div>
-                                                        </a>
+
+                    <div id="carouselExample3" class="carousel slide d-md-none" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-flex justify-content-between">
+                                    <div class="col-6 margin-col">
+                                        <a target="_top" title="NEWS" href="" style="display: inline">
+                                            <img class="d-block w-100" alt="NEWS-TITLE" src='https://placehold.co/176x118' style="object-fit: cover">
+                                        </a>
+                                        <div class="teasercontent-container">
+                                            <div class="teaser-content">
+                                                <div>
+                                                    <span class="keywords">
+                                                        <span class="key-text">
+                                                            <span class="key">KEYWORD</span>
+                                                        </span>
+                                                    </span>
+                                                    <h3 class="teaser-title">
+                                                        <a href="" title="NEWS-TITLE">NEWS TITLE</a>
+                                                    </h3>
+                                                    <div class="teaser-text">
+                                                        <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
                                                     </div>
-                                                </div>
-                                                <div class="teasercontent-container">
-                                                    <div class="teaser-content">
-                                                        <div>
-                                                            <h3 class="teaser-title">
-                                                                <a href="" title="NEWS-TITLE">NEWS TITLE</a>
-                                                            </h3>
-                                                        </div>
-                                                        <div class="teaser-links">
-                                                            <div class="teaser-link-container">
-                                                                <a class="social-links" role="button" title="twitter" target="_top">
-                                                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
-                                                                        <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                                                            <g transform="scale(5.12,5.12)">
-                                                                                <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
-                                                                            </g>
-                                                                        </g>
-                                                                    </svg>
-                                                                </a>
-                                                                <a class="social-links" role="button" title="facebook" target="_top">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
-                                                                        <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
-                                                                    </svg>
-                                                                </a>
-                                                                <a class="social-links email" role="button" title="email" target="_top">
-                                                                    <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
-                                                                </a>
-                                                                <button type="button">
-                                                                    <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
-                                                                        <div class="button-img">
-                                                                        <span class="button-icon">
-                                                                            <img src="img/icons8-commento-21.png" alt="email">
-                                                                        </span>
-                                                                        </div>
-                                                                    </a>
-                                                                </button>
-                                                            </div>
+                                                    <div class="author">
+                                                        <div class="name">
+                                                            <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="frame">
-                                        <div class="slider-container-item">
-                                            <div class="teaser-top-img">
-                                                <div class="teaserimg-container" style="padding-bottom: 20px">
-                                                    <div class="teaserimg">
-                                                        <a target="_top" title="NEWS" href="" style="display: inline">
-                                                            <div class="wider-format">
-                                                            <span style="position: relative">
-                                                                <span style="padding: 66.5339% 0 0;"></span>
-                                                                <img class="img" alt="NEWS-TITLE" src='https://placehold.co/320x213' style="object-fit: cover">
-                                                            </span>
-                                                            </div>
-                                                            <div class="smaller-format">
-                                                                <span style="position:relative;">
-                                                                    <span style="padding: 66.5339% 0 0;"></span>
-                                                                    <img class="img" alt="TITLE" src='https://placehold.co/245x163' style="object-fit: cover">
-                                                                </span>
-                                                            </div>
-                                                        </a>
+                                    <div class="col-6 margin-col">
+                                        <a target="_top" title="NEWS" href="" style="display: inline">
+                                            <img class="d-block w-100" alt="NEWS-TITLE" src='https://placehold.co/176x118' style="object-fit: cover">
+                                        </a>
+                                        <div class="teasercontent-container">
+                                            <div class="teaser-content">
+                                                <div>
+                                                    <span class="keywords">
+                                                        <span class="key-text">
+                                                            <span class="key">KEYWORD</span>
+                                                        </span>
+                                                    </span>
+                                                    <h3 class="teaser-title">
+                                                        <a href="" title="NEWS-TITLE">NEWS TITLE</a>
+                                                    </h3>
+                                                    <div class="teaser-text">
+                                                        <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
                                                     </div>
-                                                </div>
-                                                <div class="teasercontent-container">
-                                                    <div class="teaser-content">
-                                                        <div>
-                                                            <h3 class="teaser-title">
-                                                                <a href="" title="NEWS-TITLE">NEWS TITLE</a>
-                                                            </h3>
-                                                        </div>
-                                                        <div class="teaser-links">
-                                                            <div class="teaser-link-container">
-                                                                <a class="social-links" role="button" title="twitter" target="_top">
-                                                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
-                                                                        <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                                                            <g transform="scale(5.12,5.12)">
-                                                                                <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
-                                                                            </g>
-                                                                        </g>
-                                                                    </svg>
-                                                                </a>
-                                                                <a class="social-links" role="button" title="facebook" target="_top">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
-                                                                        <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
-                                                                    </svg>
-                                                                </a>
-                                                                <a class="social-links email" role="button" title="email" target="_top">
-                                                                    <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
-                                                                </a>
-                                                                <button type="button">
-                                                                    <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
-                                                                        <div class="button-img">
-                                                                        <span class="button-icon">
-                                                                            <img src="img/icons8-commento-21.png" alt="email">
-                                                                        </span>
-                                                                        </div>
-                                                                    </a>
-                                                                </button>
-                                                            </div>
+                                                    <div class="author">
+                                                        <div class="name">
+                                                            <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="frame">
-                                        <div class="slider-container-item">
-                                            <div class="teaser-top-img">
-                                                <div class="teaserimg-container" style="padding-bottom: 20px">
-                                                    <div class="teaserimg">
-                                                        <a target="_top" title="NEWS" href="" style="display: inline">
-                                                            <div class="wider-format">
-                                                            <span style="position: relative">
-                                                                <span style="padding: 66.5339% 0 0;"></span>
-                                                                <img class="img" alt="NEWS-TITLE" src='https://placehold.co/320x213' style="object-fit: cover">
-                                                            </span>
-                                                            </div>
-                                                            <div class="smaller-format">
-                                                                <span style="position:relative;">
-                                                                    <span style="padding: 66.5339% 0 0;"></span>
-                                                                    <img class="img" alt="TITLE" src='https://placehold.co/245x163' style="object-fit: cover">
-                                                                </span>
-                                                            </div>
-                                                        </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-between">
+                                    <div class="col-6 margin-col">
+                                        <a target="_top" title="NEWS" href="" style="display: inline">
+                                            <img class="d-block w-100" alt="NEWS-TITLE" src='https://placehold.co/176x118' style="object-fit: cover">
+                                        </a>
+                                        <div class="teasercontent-container">
+                                            <div class="teaser-content">
+                                                <div>
+                                                    <span class="keywords">
+                                                        <span class="key-text">
+                                                            <span class="key">KEYWORD</span>
+                                                        </span>
+                                                    </span>
+                                                    <h3 class="teaser-title">
+                                                        <a href="" title="NEWS-TITLE">NEWS TITLE</a>
+                                                    </h3>
+                                                    <div class="teaser-text">
+                                                        <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
                                                     </div>
-                                                </div>
-                                                <div class="teasercontent-container">
-                                                    <div class="teaser-content">
-                                                        <div>
-                                                            <h3 class="teaser-title">
-                                                                <a href="" title="NEWS-TITLE">NEWS TITLE</a>
-                                                            </h3>
-                                                        </div>
-                                                        <div class="teaser-links">
-                                                            <div class="teaser-link-container">
-                                                                <a class="social-links" role="button" title="twitter" target="_top">
-                                                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
-                                                                        <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                                                            <g transform="scale(5.12,5.12)">
-                                                                                <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
-                                                                            </g>
-                                                                        </g>
-                                                                    </svg>
-                                                                </a>
-                                                                <a class="social-links" role="button" title="facebook" target="_top">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
-                                                                        <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
-                                                                    </svg>
-                                                                </a>
-                                                                <a class="social-links email" role="button" title="email" target="_top">
-                                                                    <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
-                                                                </a>
-                                                                <button type="button">
-                                                                    <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
-                                                                        <div class="button-img">
-                                                                        <span class="button-icon">
-                                                                            <img src="img/icons8-commento-21.png" alt="email">
-                                                                        </span>
-                                                                        </div>
-                                                                    </a>
-                                                                </button>
-                                                            </div>
+                                                    <div class="author">
+                                                        <div class="name">
+                                                            <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="frame">
-                                        <div class="slider-container-item">
-                                            <div class="teaser-top-img">
-                                                <div class="teaserimg-container" style="padding-bottom: 20px">
-                                                    <div class="teaserimg">
-                                                        <a target="_top" title="NEWS" href="" style="display: inline">
-                                                            <div class="wider-format">
-                                                            <span style="position: relative">
-                                                                <span style="padding: 66.5339% 0 0;"></span>
-                                                                <img class="img" alt="NEWS-TITLE" src='https://placehold.co/320x213' style="object-fit: cover">
-                                                            </span>
-                                                            </div>
-                                                            <div class="smaller-format">
-                                                                <span style="position:relative;">
-                                                                    <span style="padding: 66.5339% 0 0;"></span>
-                                                                    <img class="img" alt="TITLE" src='https://placehold.co/245x163' style="object-fit: cover">
-                                                                </span>
-                                                            </div>
-                                                        </a>
+                                    <div class="col-6 margin-col">
+                                        <a target="_top" title="NEWS" href="" style="display: inline">
+                                            <img class="d-block w-100" alt="NEWS-TITLE" src='https://placehold.co/176x118' style="object-fit: cover">
+                                        </a>
+                                        <div class="teasercontent-container">
+                                            <div class="teaser-content">
+                                                <div>
+                                                    <span class="keywords">
+                                                        <span class="key-text">
+                                                            <span class="key">KEYWORD</span>
+                                                        </span>
+                                                    </span>
+                                                    <h3 class="teaser-title">
+                                                        <a href="" title="NEWS-TITLE">NEWS TITLE</a>
+                                                    </h3>
+                                                    <div class="teaser-text">
+                                                        <span style="line-height: 1.4; color: rgb(0 0 0/60%); font-size: 14px;">NEWS TEXT</span>
                                                     </div>
-                                                </div>
-                                                <div class="teasercontent-container">
-                                                    <div class="teaser-content">
-                                                        <div>
-                                                            <h3 class="teaser-title">
-                                                                <a href="" title="NEWS-TITLE">NEWS TITLE</a>
-                                                            </h3>
-                                                        </div>
-                                                        <div class="teaser-links">
-                                                            <div class="teaser-link-container">
-                                                                <a class="social-links" role="button" title="twitter" target="_top">
-                                                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
-                                                                        <g fill="#000000" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                                                                            <g transform="scale(5.12,5.12)">
-                                                                                <path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path>
-                                                                            </g>
-                                                                        </g>
-                                                                    </svg>
-                                                                </a>
-                                                                <a class="social-links" role="button" title="facebook" target="_top">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 32 32" style="position: relative; bottom: 1px">
-                                                                        <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
-                                                                    </svg>
-                                                                </a>
-                                                                <a class="social-links email" role="button" title="email" target="_top">
-                                                                    <img src="img/icons8-nuovo-messaggio-13.png" alt="email" style="position:relative; top: 10%; left: 17%;">
-                                                                </a>
-                                                                <button type="button">
-                                                                    <a href="" title="NEWS-TITLE" target="_top" style="display: inline">
-                                                                        <div class="button-img">
-                                                                        <span class="button-icon">
-                                                                            <img src="img/icons8-commento-21.png" alt="email">
-                                                                        </span>
-                                                                        </div>
-                                                                    </a>
-                                                                </button>
-                                                            </div>
+                                                    <div class="author">
+                                                        <div class="name">
+                                                            <span style="color: #003055; font-size: 13px; line-height: normal;">AUTHOR</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2300,7 +2328,12 @@
                                             <img class="img" alt="NEWS-TITLE" src='https://placehold.co/136x136' style="object-fit: fill">
                                         </span>
                                     </div>
-                                    <div class="smaller-format"></div>
+                                    <div class="mobile-format">
+                                        <span>
+                                            <span style="padding: 100% 0 0"></span>
+                                            <img class="img" src="https://placehold.co/124" alt="" style="object-fit: fill">
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -2327,7 +2360,12 @@
                                             <img class="img" alt="NEWS-TITLE" src='https://placehold.co/136x136' style="object-fit: fill">
                                         </span>
                                     </div>
-                                    <div class="smaller-format"></div>
+                                    <div class="mobile-format">
+                                        <span>
+                                            <span style="padding: 100% 0 0"></span>
+                                            <img class="img" src="https://placehold.co/124" alt="" style="object-fit: fill">
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -2354,7 +2392,12 @@
                                             <img class="img" alt="NEWS-TITLE" src='https://placehold.co/136x136' style="object-fit: fill">
                                         </span>
                                     </div>
-                                    <div class="smaller-format"></div>
+                                    <div class="mobile-format">
+                                        <span>
+                                            <span style="padding: 100% 0 0"></span>
+                                            <img class="img" src="https://placehold.co/124" alt="" style="object-fit: fill">
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -5189,7 +5232,7 @@
                         <span style="color: #BE0B26; font-size: 13px; display: inline-block; margin-right: 5px">KEY</span>
                         <span style="color: #ffffff; display: inline-block; font-size: 13px">KEY</span>
                     </div>
-                    <!-- Carousel -->
+
                     <div id="multiItemCarousel" class="carousel slide" data-bs-ride="false">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
@@ -6654,19 +6697,19 @@
                         <div class="d-flex text-center">
                             <div class="d-flex flex-column col-md-4 col-lg-4">
                                 <a href="" style="width: 260px; margin: 13px 0">
-                                    <img src="https://placehold.co/260x25">
+                                    <img src="https://placehold.co/260x25" alt="">
                                 </a>
                                 <a href="" style="width: 260px; margin: 13px 0">
-                                    <img src="https://placehold.co/260x25">
+                                    <img src="https://placehold.co/260x25" alt="">
                                 </a>
                                 <a href="" style="width: 260px; margin: 13px 0">
-                                    <img src="https://placehold.co/260x25">
+                                    <img src="https://placehold.co/260x25" alt="">
                                 </a>
                                 <a href="" style="width: 260px; margin: 13px 0">
-                                    <img src="https://placehold.co/260x25">
+                                    <img src="https://placehold.co/260x25" alt="">
                                 </a>
                                 <a href="" style="width: 260px; margin: 13px 0">
-                                    <img src="https://placehold.co/260x25">
+                                    <img src="https://placehold.co/260x25" alt="">
                                 </a>
                             </div>
                             <div class="d-flex flex-column text-start col-md-4 col-lg-4 inner-bottom-footer-second-third-col">

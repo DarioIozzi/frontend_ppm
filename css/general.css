@@ -47,6 +47,7 @@ span {
 
 .treminuti{
     background-color: #06376b;
+    padding: 20px;
 }
 
 @media (min-width: 1024px) {
@@ -67,6 +68,7 @@ span {
     display: flex;
     position: relative;
     padding: 0;
+    flex-direction: column;
 }
 
 @media(min-width: 1024px){
@@ -79,15 +81,26 @@ span {
     flex: 1;
 }
 
+.teaser-treminuti{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    min-height: auto;
+    position: relative;
+}
+
+.teaser-treminuti:not(.last){
+    border-bottom: 2px solid rgba(250, 250, 250, 0.5);
+    border-right: none ;
+}
+
 @media(min-width: 1024px){
     .teaser-treminuti{
         flex-direction: row-reverse;
         margin: 0;
         padding: 0 16px;
         height: 100%;
-        display: flex;
         min-height: 223px;
-        position: relative;
     }
 
     .teaser-treminuti:not(.last){
@@ -130,9 +143,24 @@ span {
     font-size: 18px;
 }
 
+@media(max-width: 479px) {
+    .teaser-treminuti-title > h2 {
+        font-size: 17px;
+    }
+}
+
 .teaser-treminuti-author > span > span{
     font-style: italic;
     font-family: serif;
+}
+
+.teaser-treminuti-img{
+    position: relative;
+    align-self: flex-end;
+    width: 50%;
+    height: 100%;
+    flex: 1;
+    top: 0;
 }
 
 @media(min-width: 1024px) {

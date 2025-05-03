@@ -25,3 +25,22 @@
         z-index: 20;
     }
 }
+
+#hamburger-menu-mobile{
+    left: 56px;
+    display: block;
+    position: absolute;
+}
+
+@media(max-width: 479px){
+    #hamburger-menu-mobile{
+        left: 16px;
+    }
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}

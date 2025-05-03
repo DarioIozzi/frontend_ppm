@@ -1,3 +1,15 @@
+.trending-topics{
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+}
+
+.trending-topic span{
+    flex-shrink: 0;
+}
+
 @media(min-width:1024px) {
     .trending-topics{
         display: flex;
@@ -11,13 +23,16 @@
         font-weight: bold;
     }
 }
-.trending-topics{
-    align-items: center;
-    flex-wrap: nowrap;
-    overflow: hidden;
-    white-space: nowrap;
-}
 
-.trnding-topic span{
-    flex-shrink: 0;
+@media(max-width:479px) {
+    .trending-topics{
+        color: #93C8FF;
+        text-overflow: ellipsis;
+        font-size: 10px;
+    };
+
+    .trending-topics span{
+        font-size: 12px;
+        margin-right: 4px;
+    }
 }

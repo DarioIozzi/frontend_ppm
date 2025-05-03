@@ -4,3 +4,11 @@
     height: 100%;
     right: 56px;
 }
+
+@media (max-width: 479px) {
+    .top-right{
+        position: relative;
+        right: auto;
+        left: auto;
+    }
+}

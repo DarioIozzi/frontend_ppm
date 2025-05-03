@@ -21,3 +21,10 @@
     justify-content: center;
     position: relative;
 }
+
+@media (max-width: 479px) {
+    .inner-top-menu{
+        justify-content: space-between;
+        padding: 0 16px;
+    }
+}

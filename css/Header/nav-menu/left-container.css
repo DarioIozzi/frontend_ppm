@@ -1,9 +1,11 @@
-@media(min-width: 1024px){
-    flex-direction: row;
-}
-
 .left-container{
     display: flex;
     position: relative;
     flex: 1;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+@media(min-width: 1024px){
+    flex-direction: row;
 }

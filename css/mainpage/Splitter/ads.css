@@ -46,3 +46,15 @@
         background-color: #0c2a42;
     }
 }
+
+@media (max-width: 479px) {
+    .bigger{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .smaller{
+        display: none;
+    }
+}

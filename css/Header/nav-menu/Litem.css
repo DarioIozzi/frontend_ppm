@@ -1,3 +1,11 @@
+.Litem{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 16px 16px 13px 16px;
+    border-bottom: 3px solid transparent;
+}
+
 @media(min-width: 1024px){
     .Litem{
         padding: 0;
@@ -6,10 +14,4 @@
     .Litem:not(:first-child){
         margin-left: 20px;
     }
-}
-
-.Litem{
-    color: #ffffff;
-    font-size: 14px;
-    line-height: 17px;
 }

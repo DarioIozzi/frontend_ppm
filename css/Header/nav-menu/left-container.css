@@ -7,5 +7,7 @@
 }
 
 @media(min-width: 1024px){
-    flex-direction: row;
+    .left-container {
+        flex-direction: row;
+    }
 }

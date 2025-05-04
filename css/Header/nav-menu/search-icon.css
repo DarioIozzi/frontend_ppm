@@ -25,12 +25,13 @@
 
 #search-icon-mobile{
     position: absolute;
-    display: block;
+    display: none;
     width: 19px;
 }
 
 @media(max-width: 479px){
     #search-icon-mobile {
         right: 16px;
+        display: block;
     }
 }

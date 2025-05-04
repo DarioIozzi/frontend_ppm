@@ -260,3 +260,9 @@
     overflow: hidden;
     padding: 30px;
 }
+
+@media(min-width: 1024px) {
+    .links-footer2{
+        padding: 14px 22px;
+    }
+}

@@ -25,3 +25,31 @@
         display: none;
     }
 }
+
+@media (min-width: 1024px) {
+    .custom-border-end{
+        border-bottom: 0;
+        border-right: 2px solid #dddddd;
+    }
+
+    .list-group.list-group-flush.last > li{
+        border-right: 0;
+    }
+}
+
+@media (max-width: 479px) {
+    .custom-border-end{
+        border-bottom: 2px solid #dddddd;
+        border-right: 0;
+    }
+}
+
+.desktop-mobile{
+    flex-direction: row;
+}
+
+@media (max-width: 480px) {
+    .desktop-mobile {
+        flex-direction: column;
+    }
+}

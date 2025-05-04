@@ -1,0 +1,15 @@
+.menu-social{
+    position: absolute;
+    height: 100%;
+    left: 56px;
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 479px){
+    .menu-social{
+        position: relative;
+        right: auto;
+        left: auto;
+    }
+}

@@ -1,0 +1,40 @@
+@media(min-width: 1024px) {
+    .nav-quotidiano{
+        overflow: hidden;
+        position: relative;
+        align-items: center;
+        font-size: 14px;
+        padding: 0 24px;
+    }
+
+    .nav-quotidiano a{
+        text-align: right;
+        width: 100%;
+        display: block;
+    }
+}
+
+.nav-quotidiano{
+    display: flex;
+    background-color: #0f5096;
+    color: #ffffff;
+    flex-direction: row;
+}
+
+.nav-quotidiano a{
+    text-decoration: none;
+}
+
+@media (max-width: 479px) {
+    .nav-quotidiano{
+        padding: 16px;
+    }
+}
+
+.nav-quotidiano svg{
+    height: 20px;
+}
+
+.nav-quotidiano svg path{
+    stroke: white;
+}

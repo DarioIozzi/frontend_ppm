@@ -1,0 +1,14 @@
+.links{
+    padding: 0;
+    overflow-x: auto;
+}
+
+@media(min-width: 1024px){
+    .links{
+        width: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

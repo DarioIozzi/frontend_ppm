@@ -1,0 +1,74 @@
+.argument-ribbon{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #BE0B26;
+    position: relative;
+    display: inline-block;
+    padding: 8px 30px 8px 30px;
+    border-radius: 0 2px 2px 0;
+}
+
+.argument-ribbon::before{
+    display: block;
+    content: '';
+    background-color: inherit;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -20px;
+    width: 20px;
+}
+
+.argument-ribbon.decoration::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -39px;
+    width: 40px;
+    background-color: inherit;
+    clip-path: polygon(100% 0, 30% 50%, 100% 100%, 0 100%, 0 0);
+}
+
+@media(min-width: 1024px){
+    .argument-ribbon{
+        --outside-space: calc((100vw - 1024px) / 2);
+    }
+
+    .argument-ribbon::before{
+        left: calc(-1 * var(--outside-space));
+        width: var(--outside-space);
+    }
+}
+
+@media(max-width: 479px){
+    .argument-ribbon{
+        margin-bottom: 3vw;
+    }
+}
+
+.argument-container{
+    display: flex;
+    align-items: center;
+}
+
+.argument{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+
+}
+.title{
+    font-size: 28px;
+}
+
+.title, .text{
+    display: block;
+    margin-top: 16px;
+    padding-left: 30px;
+}
+
+.title a:hover{
+    text-decoration: underline;
+}
+

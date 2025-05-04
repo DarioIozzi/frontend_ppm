@@ -1,0 +1,6 @@
+.container-login{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-shrink: 0;
+}

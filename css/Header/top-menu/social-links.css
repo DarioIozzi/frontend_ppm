@@ -1,5 +1,5 @@
-.social-links:not(:first-child){
- margin-left: 13px;
+.topmenu .social-links:not(:first-child){
+    margin-left: 13px;
 }
 
 .social-links{

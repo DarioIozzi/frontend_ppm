@@ -1,0 +1,27 @@
+@media(min-width: 1024px){
+    .col-custom-6{
+        width: 50%;
+        float: left;
+    }
+}
+
+.margin-col{
+    margin: 0 1%;
+}
+
+.preview-card {
+    width: 80%;
+    padding: 0 8px;
+}
+
+@media (max-width: 479px) {
+    .desktop-carousel{
+        display: none;
+    }
+}
+
+@media (min-width: 480px) {
+    .mobile-carousel {
+        display: none;
+    }
+}

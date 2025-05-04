@@ -41,6 +41,12 @@
     }
 }
 
+@media(max-width: 479px){
+    .argument-ribbon{
+        margin-bottom: 3vw;
+    }
+}
+
 .argument-container{
     display: flex;
     align-items: center;

@@ -13,3 +13,15 @@
     width: 80%;
     padding: 0 8px;
 }
+
+@media (max-width: 479px) {
+    .desktop-carousel{
+        display: none;
+    }
+}
+
+@media (min-width: 480px) {
+    .mobile-carousel {
+        display: none;
+    }
+}

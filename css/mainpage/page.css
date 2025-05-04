@@ -22,10 +22,15 @@
     }
 }
 
+.page.video{
+    flex-direction: column;
+}
+
 @media(min-width: 768px){
     .page.video{
         display: flex;
         margin-bottom: 50px;
+        flex-direction: row;
     }
 }
 
@@ -33,7 +38,7 @@
     padding-bottom: 20px;
     padding-top: 15px;
     border-bottom: 1px solid #b0161e;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 @media(min-width: 1024px){
@@ -44,7 +49,7 @@
     }
 }
 
-@media {
+@media (min-width: 1024px){
     .page > .video-container {
         padding: 10px;
         width: 688px;

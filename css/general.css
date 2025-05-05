@@ -268,3 +268,28 @@ span {
     border-color: #17c001;
     color: #ffffff;
 }
+
+.content{
+    display: block;
+}
+
+.wider-format {
+     display: none;
+ }
+
+@media(min-width: 1024px) {
+    .wider-format {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        padding-bottom: 10px;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}

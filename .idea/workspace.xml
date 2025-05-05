@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="751590de-40ab-458f-afa0-ee9b3ad18eb3" name="Changes" comment="done">
+      <change beforePath="$PROJECT_DIR$/css/Header/nav-menu/hamburger-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Header/nav-menu/hamburger-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Header/nav-menu/search-icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Header/nav-menu/search-icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Header/nav-menu/trending-topics.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Header/nav-menu/trending-topics.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom-bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom-bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mainpage/Splitter/Left.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainpage/Splitter/Left.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mainpage/Splitter/splitter.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainpage/Splitter/splitter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mainpage/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainpage/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DarioIozzi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DarioIozzi/frontend_ppm.git&quot;,
+    &quot;accountId&quot;: &quot;be1b7136-029c-4bee-baa9-066f1b991ca6&quot;
+  }
+}</component>
+  <component name="NamedScopeManager">
+    <scope name="not-bootstrap" pattern="!file[unionesarda]:css/bootstrap/*||file:index.html||file[unionesarda]:css/Header/*||file[unionesarda]:css/mainpage/*||file:css/general.css" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2vXh3dxfktE2K8aF01X4uZrvFIN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/progetti info/Web/unionesarda/my-js&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/nvm/v22.14.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\progetti info\Web\unionesarda\my-js" />
+      <recent name="D:\progetti info\Web\unionesarda" />
+      <recent name="D:\progetti info\Web\unionesarda\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\progetti info\Web\unionesarda" />
+      <recent name="D:\progetti info\Web\unionesarda\js" />
+      <recent name="D:\progetti info\Web\unionesarda\img" />
+      <recent name="D:\progetti info\Web\unionesarda\css\mainpage\Breaking news" />
+      <recent name="D:\progetti info\Web\unionesarda\css\Header\top-menu" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" path-to-node="$APPLICATION_CONFIG_DIR$/node/versions/22.14.0/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="751590de-40ab-458f-afa0-ee9b3ad18eb3" name="Changes" comment="" />
+      <created>1744297129064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744297129064</updated>
+      <workItem from="1744297130101" duration="6071000" />
+      <workItem from="1744314466478" duration="5623000" />
+      <workItem from="1744320238613" duration="2532000" />
+      <workItem from="1744355279757" duration="431000" />
+      <workItem from="1744361043634" duration="18780000" />
+      <workItem from="1744480073988" duration="50000" />
+      <workItem from="1744493562085" duration="5151000" />
+      <workItem from="1744614851303" duration="1342000" />
+      <workItem from="1744818465115" duration="992000" />
+      <workItem from="1744890006062" duration="1356000" />
+      <workItem from="1744904674619" duration="4293000" />
+      <workItem from="1744960250873" duration="1270000" />
+      <workItem from="1744961541861" duration="1330000" />
+      <workItem from="1745072965383" duration="5148000" />
+      <workItem from="1745324790833" duration="11616000" />
+      <workItem from="1745353325249" duration="3502000" />
+      <workItem from="1745393580606" duration="2611000" />
+      <workItem from="1745410670787" duration="11458000" />
+      <workItem from="1745434965115" duration="5332000" />
+      <workItem from="1745440361399" duration="2372000" />
+      <workItem from="1745479671115" duration="2615000" />
+      <workItem from="1745496585556" duration="12653000" />
+      <workItem from="1745568407879" duration="3264000" />
+      <workItem from="1745659766880" duration="9703000" />
+      <workItem from="1745676840530" duration="438000" />
+      <workItem from="1745677299978" duration="10029000" />
+      <workItem from="1745695425433" duration="5333000" />
+      <workItem from="1745701645200" duration="1390000" />
+      <workItem from="1745754075617" duration="14610000" />
+      <workItem from="1745783489400" duration="8798000" />
+      <workItem from="1745822901991" duration="12812000" />
+      <workItem from="1745838723295" duration="16368000" />
+      <workItem from="1745870670262" duration="6768000" />
+      <workItem from="1745910489205" duration="3377000" />
+      <workItem from="1745929421854" duration="13362000" />
+      <workItem from="1745956954808" duration="5227000" />
+      <workItem from="1745996426185" duration="999000" />
+      <workItem from="1746018617048" duration="12395000" />
+      <workItem from="1746045612669" duration="7987000" />
+      <workItem from="1746082765291" duration="7206000" />
+      <workItem from="1746121076840" duration="2327000" />
+      <workItem from="1746169397366" duration="7939000" />
+      <workItem from="1746178868820" duration="832000" />
+      <workItem from="1746190527660" duration="20097000" />
+      <workItem from="1746261413274" duration="28902000" />
+      <workItem from="1746346167110" duration="6051000" />
+      <workItem from="1746361623022" duration="48000" />
+      <workItem from="1746386718148" duration="10440000" />
+      <workItem from="1746458410548" duration="8717000" />
+    </task>
+    <task id="LOCAL-00001" summary="primo commit">
+      <option name="closed" value="true" />
+      <created>1744615117609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744615117609</updated>
+    </task>
+    <task id="LOCAL-00002" summary="primo commit">
+      <option name="closed" value="true" />
+      <created>1745762569156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745762569156</updated>
+    </task>
+    <task id="LOCAL-00003" summary="primo mobile">
+      <option name="closed" value="true" />
+      <created>1745831757556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745831757556</updated>
+    </task>
+    <task id="LOCAL-00004" summary="desktop-version-done">
+      <option name="closed" value="true" />
+      <created>1746179207459</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746179207459</updated>
+    </task>
+    <task id="LOCAL-00005" summary="doing mobile">
+      <option name="closed" value="true" />
+      <created>1746290865167</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746290865167</updated>
+    </task>
+    <task id="LOCAL-00006" summary="doing mobile">
+      <option name="closed" value="true" />
+      <created>1746361657573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746361657573</updated>
+    </task>
+    <task id="LOCAL-00007" summary="desktop done">
+      <option name="closed" value="true" />
+      <created>1746397237215</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746397237215</updated>
+    </task>
+    <task id="LOCAL-00008" summary="desktop done">
+      <option name="closed" value="true" />
+      <created>1746458816296</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746458816296</updated>
+    </task>
+    <task id="LOCAL-00009" summary="desktop done">
+      <option name="closed" value="true" />
+      <created>1746458840135</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746458840135</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primo commit" />
+    <MESSAGE value="primo mobile" />
+    <MESSAGE value="desktop-version-done" />
+    <MESSAGE value="doing mobile" />
+    <MESSAGE value="desktop done" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
+  </component>
+</project>

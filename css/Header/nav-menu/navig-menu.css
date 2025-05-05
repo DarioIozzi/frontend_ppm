@@ -4,3 +4,9 @@
     margin: 0 auto;
     background-color: #06376b;
 }
+
+.nav-item > a{
+    color: #ffffff;
+    padding: 0;
+    margin-bottom: 16px;
+}

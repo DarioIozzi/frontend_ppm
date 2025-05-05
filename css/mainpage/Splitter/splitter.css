@@ -7,6 +7,18 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .content-mobile {
+        padding-bottom: 10px;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
+.content{
+    display: block;
+}
+
 @media (min-width: 1024px) {
     .content{
         display: flex;

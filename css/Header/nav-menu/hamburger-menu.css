@@ -72,10 +72,13 @@
     background-color: #f0f0f0;
 }
 
+#drop-down-menu-search-bar{
+    display: none;
+}
+
 @media(min-width: 1024px){
     #drop-down-menu-search-bar {
         align-items: center;
-        display: none;
         height: 100%;
         left: 0;
         position: absolute;

@@ -169,6 +169,14 @@
     line-height: 22px;
 }
 
+.innerfooter3 .desktop-mobile div{
+    padding: 8px 0;
+}
+
+.innerfooter3{
+    padding: 34px 0;
+}
+
 @media(min-width: 1024px) {
     .footer4{
         padding: 38px 30px;

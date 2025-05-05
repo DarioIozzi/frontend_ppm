@@ -1,11 +1,11 @@
 .teaserimg-left{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 479px) {
     .teaserimg-left {
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 

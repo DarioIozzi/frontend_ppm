@@ -69,6 +69,7 @@ span {
     position: relative;
     padding: 0;
     flex-direction: column;
+    width: 100%;
 }
 
 @media(min-width: 1024px){
@@ -277,12 +278,6 @@ span {
      display: none;
  }
 
-@media(max-width: 479px) {
-    .wider-format .content .left {
-        display: none;
-    }
-}
-
 @media(min-width: 1024px) {
     .wider-format {
         display: block;
@@ -302,6 +297,7 @@ span {
 
 .medium-format{
     display: none;
+    flex-direction: column;
 }
 
 @media(min-width: 480px) {

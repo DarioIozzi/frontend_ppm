@@ -6,8 +6,9 @@
     display: flex;
 }
 
-.trending-topic span{
+.trending-topics span{
     flex-shrink: 0;
+    color: #93C8FF;
 }
 
 @media(min-width:1024px) {
@@ -18,7 +19,6 @@
     .trending-topics span{
         font-size: 14px;
         line-height: 17px;
-        color: #93C8FF;
         margin-right: 20px;
         font-weight: bold;
     }
@@ -26,7 +26,6 @@
 
 @media(max-width:479px) {
     .trending-topics{
-        color: #93C8FF;
         text-overflow: ellipsis;
         font-size: 10px;
     };

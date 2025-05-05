@@ -7,11 +7,17 @@
     }
 }
 
-@media (max-width: 1024px) {
+.content-mobile{
+    display: none;
+}
+
+@media (max-width: 479px) {
     .content-mobile {
+        display: flex;
         padding-bottom: 10px;
         max-width: 1024px;
         margin: 0 auto;
+        flex-direction: column;
     }
 }
 

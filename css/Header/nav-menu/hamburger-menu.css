@@ -26,6 +26,12 @@
     }
 }
 
+#hamburger-menu-mobile{
+    left: 56px;
+    position: absolute;
+    display: block;
+}
+
 @media(max-width: 479px){
     #hamburger-menu-mobile{
         left: 16px;

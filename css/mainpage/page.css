@@ -92,7 +92,7 @@
     pointer-events: none;
 }
 
-@media(max-width: 479px){
+@media(max-width: 767px){
     .color-background {
         flex-direction: column;
     }
@@ -112,14 +112,15 @@
     background-color: #f5da1b;
 }
 
-@media(max-width: 479px){
+@media(max-width: 767px){
     .color-background .red, .color-background .yellow {
         width: 100%;
     }
 }
 
 .innerfooter2 {
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 @media(min-width: 1024px){
@@ -257,9 +258,10 @@
 
 .mobile-subscribe-button{
     width: 215px;
-    left: 25%;
+    left: 50%;
     position: absolute;
     bottom: 30px;
+    transform: translateX(-50%);
 }
 
 .links-footer2{
@@ -271,6 +273,15 @@
 @media(min-width: 1024px) {
     .links-footer2 {
         padding: 14px 22px;
+    }
+}
+
+@media(min-width: 768px) {
+    @media (max-width: 1024px) {
+        .innerfooter2 > .mobile-format {
+            flex-direction: row;
+            display: flex;
+        }
     }
 }
 

@@ -29,7 +29,6 @@
 #hamburger-menu-mobile{
     left: 56px;
     position: absolute;
-    display: block;
 }
 
 @media(max-width: 479px){
@@ -37,6 +36,12 @@
         left: 16px;
         display: block;
         position: absolute;
+    }
+}
+
+@media(max-width: 1023px) {
+    #hamburger-menu-mobile {
+        display: block;
     }
 }
 
